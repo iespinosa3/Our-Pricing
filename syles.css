@@ -1,0 +1,112 @@
+
+
+
+
+body{
+
+text-align: center;
+margin-top: 250px;
+
+font-family: 'Montserrat',sans-serif;
+font-weight: 700;
+}
+h1{font-size: 3rem}
+
+h2{
+font-family: 'Montserrat',sans-serif;
+color:darkgrey;
+}
+p{ color: hsl(232, 13%, 33%);}
+
+hr{height:1px; background-color: lightgrey;}
+
+
+
+.imgDiv1{
+position: absolute;left:1300px; top:100px;
+z-index: -1
+}
+
+.imgDiv2{
+position: absolute;left:200px; top:720px;
+z-index: -1
+}
+
+
+
+.startAnually{
+position: absolute; left: 450px; bottom:50px;
+;
+}
+.startMonthly{
+position: absolute; right: 450px; bottom:50px;
+;
+}
+
+
+.card{height: 500px; width: 200px;
+padding-top: 50px;
+border-radius: 20px;
+background-color: white;
+
+}
+
+.firstBtn{margin: 0 10px 0 10px}
+
+.btn{background:linear-gradient(to right, #33ccff 0%, #0033cc 100%);
+color: white;
+border: 0;
+}
+
+.toggle-btn{
+width:60px;
+height:30px;
+background:linear-gradient(to right, #33ccff 0%, #0033cc 100%);
+border-radius: 20px;
+position: relative; left:47%;
+margin-bottom: 50px;
+transition: all 300ms ease-in-out;
+}
+
+.toggle-btn>.inner-circle{
+  width: 25px;
+  height: 26px;
+  border-radius: 100%;
+  background:white;
+  position: relative; left:2px; top:2px;
+  transition: all 300ms ease-in-out;
+
+}
+.toggle-btn.active{background-color: black;
+
+}
+.toggle-btn.active >.inner-circle{
+position: relative;
+ left: 32px;
+
+}
+.noAnually{display: none}
+
+.start{color:hsl(234, 14%, 74%);}
+
+
+
+/*Background High Light */
+
+.divHighLight{background:linear-gradient(to right, #33ccff 0%, #0033cc 100%);
+color: white;
+border: 0;
+}
+.horizontalLine{background: white;
+}
+.buttonBackgroundColor{background: white;
+color:blue
+}
+.features{
+color: white;
+
+}
+@media query (max-width:1000){
+.imgDiv1{position: static;}
+body{margin-left: 50%;}
+}
